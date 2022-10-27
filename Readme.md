@@ -1,1 +1,1 @@
-CIDemo1:name
+CIDemo1
