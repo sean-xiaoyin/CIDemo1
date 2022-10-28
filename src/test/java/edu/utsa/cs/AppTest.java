@@ -21,7 +21,7 @@ public class AppTest
 	@Test
 	public void testAddPositive(){
 		int sum = app.add(5);
-		Assert.assertEquals("Sum of adding a positive value 5", 4, sum);
+		Assert.assertEquals("Sum of adding a positive value 5", 5, sum);
 	}
 	
     /**
