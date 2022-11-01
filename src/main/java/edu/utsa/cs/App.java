@@ -20,7 +20,7 @@ public class App
     {
 		try{
 			System.out.println( "Hello World!" + x);
-		}catch(Error e){
+		}catch(RuntimeException e){
 			e.printStackTrace();
 		}
     }
