@@ -24,6 +24,11 @@ public class AppTest
 		Assert.assertEquals("Sum of adding a positive value 5", 5, sum);
 	}
 	
+	@Test
+	public void testMain(){
+		App.main("abc");
+	}
+	
     /**
      * Rigorous Test :-)
      */
