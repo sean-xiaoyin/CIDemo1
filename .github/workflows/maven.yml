@@ -32,7 +32,9 @@ jobs:
       uses: cicirello/jacoco-badge-generator@v2
       with:
         generate-branches-badge: true
-  pmd:
+        coverage-badge-filename: jacoco.svg
+        branches-badge-filename: branches.svg
+pmd:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
