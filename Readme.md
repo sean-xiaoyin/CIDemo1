@@ -1,3 +1,3 @@
 CIDemo1
-![coverage](../badges/jacoco.svg)
-![branches coverage](../badges/branches.svg)
+![coverage](.github/badges/jacoco.svg)
+![branches coverage](.github/badges/branches.svg)
