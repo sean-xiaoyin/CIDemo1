@@ -7,6 +7,7 @@ package edu.utsa.cs;
 public class App 
 {
 	int base;
+	String[] x;
 
 	public App(int base){
 		this.base = base;
@@ -18,6 +19,7 @@ public class App
 
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+		x = args;
+        System.out.println( "Hello World!" + x);
     }
 }
