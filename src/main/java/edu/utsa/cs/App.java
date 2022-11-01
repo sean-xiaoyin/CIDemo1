@@ -7,7 +7,7 @@ package edu.utsa.cs;
 public class App 
 {
 	int base;
-	String[] x;
+	static String[] x;
 
 	public App(int base){
 		this.base = base;
