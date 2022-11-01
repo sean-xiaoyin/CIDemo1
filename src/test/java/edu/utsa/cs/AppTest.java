@@ -26,7 +26,9 @@ public class AppTest
 	
 	@Test
 	public void testMain(){
-		App.main("abc");
+		String[] args = {"abc"};
+		App.main(args);
+		Assert.assertTrue("run main for smoke testing", true);
 	}
 	
     /**
