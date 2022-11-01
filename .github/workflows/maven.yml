@@ -52,8 +52,9 @@ jobs:
         distribution: 'temurin'
         java-version: '11'
     - uses: pmd/pmd-github-action@v1
+      id: pmd
       with:
         rulesets: 'bestpractices.xml'
-    - name: Fail build if there a violations
+    - name: Fail build if there are violations
       if: steps.pmd.outputs.violations != 0
       run: exit 1
