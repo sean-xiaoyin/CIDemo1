@@ -18,7 +18,6 @@ public class App
 		}else{
 			return -1;
 		}
-		return base + value;
 	}
 
     public static void main( String[] args )
