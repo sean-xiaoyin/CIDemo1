@@ -13,7 +13,7 @@ public class App
 	}
 	
 	public int add(int value){
-		return base + value; // plant another bug
+		return base + value + 1; // plant another bug
 	}
 
     public static void main( String[] args )
