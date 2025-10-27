@@ -13,7 +13,12 @@ public class App
 	}
 	
 	public int add(int value){
-		return base + value; // plant another bug
+		if (value > 0){
+			return base + value;
+		}else{
+			return -1;
+		}
+		return base + value;
 	}
 
     public static void main( String[] args )
