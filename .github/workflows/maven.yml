@@ -54,6 +54,9 @@ jobs:
       - uses: pmd/pmd-github-action@v2
         with:
           rulesets: 'bestpractices.xml'
+      - name: Fail if PMD violations are found
+        if: steps.pmd.outputs.violations != 0
+        run: exit 1          
   build-windows:
     runs-on: windows-latest
 
