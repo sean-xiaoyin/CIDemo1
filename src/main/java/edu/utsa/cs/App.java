@@ -14,7 +14,7 @@ public class App
 	
 	public int add(int value){
 		if (value > 0){
-			return base + value + 1; //Insert a bug
+			return base + value;
 		}else{
 			return -1;
 		}
